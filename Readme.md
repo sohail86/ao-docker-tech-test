@@ -26,7 +26,7 @@ To ensure your focus on the intended challenges, please note that the .NET Core 
 
 ### Part 1
 
-The `service` is an old on prem service this needs to be migrated to the cloud. It currently run on a Windows Server 2012 R2 server on a VMware ESXi platform that is due to be decommissioned. In the test and production environment the application is load balanced by a pair of Citrix Netscaler's.
+The application an on-premise service that needs to be migrated to the cloud. It currently run on a Windows Server 2012 R2 server on a VMware ESXi platform that is due to be decommissioned. In the test and production environment the application is load balanced by a pair of Citrix Netscaler's.
 
 The team that owns this app has also recently transitioned to a product aligned team and is expected to take full operational ownership of the infrastructure supporting their application. They would like to avoid having to 'lift and shift' the application to cloud based instances and have asked if you would be able to help them containerise it instead.
 
@@ -39,7 +39,7 @@ In order to complete this you must:
 
 ### Part 2
 
-The application is currently built and packaged using an on premise TeamCity installation and deployed to the virtual servers using Octopus Deploy. The team would like to modernise the deployment pipeline for the application now that it is running in a container. They have also expressed interest in having their infrastructure and pipeline defined as code to serve as a template to avoid repeat work when migrating similar applications.
+The application is currently built and packaged using an on-premise TeamCity installation and deployed to the virtual servers using Octopus Deploy. The team would like to modernise the deployment pipeline for the application now that it is running in a container. They have also expressed interest in having their infrastructure and pipeline defined as code to serve as a template to avoid repeat work when migrating similar applications.
 
 The company is heavily invested in AWS and the team would like to stay with the companies cloud provider of choice. As this is an experiment so the team can learn more about running the app in the cloud they will only require a single environment to begin with.
 
